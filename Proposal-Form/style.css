@@ -1,253 +1,78 @@
-.container{
-    width: 70%;
-    margin: auto;
-    background-color: whitesmoke;
-    padding: 12px;
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+   
 }
-body{
-    background-color: grey;
-}
-
-#bankLogo img{
-    width: 200px;
-    height: 170px;
-}
-.heading h2{
-    width: 25%;
-    margin: auto;
-}
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-#table table{
-    width: 80%;
-}
-#table{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.photograph{
-    margin-top: 32px;
-    margin-left: 25px;
-    width: 17%;
-    height: 250px;
+#main{
+    width: 98%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
     border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
-.photograph p{
-    width: 75%;
-    margin: auto;
-}
-.section1{
-    background-color: coral;
-}
-.section1 h3{
+h4{
+    
+    margin-top: 0%;
     text-align: center;
 
 }
-.firstColumn{
-    width: 60%;
-    display: flex;
-    /* border: 2px solid black; */
-    /* justify-content: space-between; */
+
+#table1{
+    width: 100%;
+    border-collapse: collapse;
 }
-.firstColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
+#table1 td{
+    border: 1px solid;
+    border-collapse: collapse;
 }
-.firstColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
+  #table1 .t1{
+    border: 0px;
 }
-.firstColumn .inputs{
-    width: 33%;
+ .passport-photo{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
 }
-.secondColumn{
-    width: 60%;
-    display: flex;
+  
+#pp{
+    background-color: orangered;
+    text-align: center;
 }
-.secondColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
+#table2,#table3{
+    width: 100%;
 }
-.secondColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
+input[type="checkbox"]{
+    width: 21px;
+    height: 18px;
 }
-.secondColumn .inputs{
-    width: 33%;
+td{
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
-.thirdColumn{
-    width: 60%;
-    display: flex;
-}
-.thirdColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
-}
-.thirdColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
-}
-.thirdColumn .inputs{
-    width: 33%;
-}
-.fourthColumn{
-    width: 60%;
-    display: flex;
-}
-.fourthColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
-}
-.fourthColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
-}
-.fourthColumn .inputs{
-    width: 33%;
-}
-.fifthColumn{
-    width: 60%;
-    display: flex;
-}
-.fifthColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
-}
-.fifthColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
-}
-.fifthColumn .inputs{
-    width: 33%;
-}
-.sixthColumn{
-    width: 60%;
-    display: flex;
-}
-.sixthColumn label{
-    width: 60%;
-    /* width: 60%; */
-    /* background-color: brown; */
-}
-.sixthColumn .dash{
-    width: 47%;
-    /* border: 2px solid coral; */
-}
-.sixthColumn .inputs{
-    width: 33%;
-}
-/* .thirdColumn{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
-.thirdColumn label{
-    width: 40%;
-    background-color: aqua;
-}
-.thirdColumn .inputs{
-    width: 60%;
-    background-color: aquamarine;
-} */
-/* .inputs{
-    display: flex;
-    justify-content: space-between;
-} */
-.fourthColumn{
-    width: 60%;
-    display: flex;
-}
-#secondSection{
-    display: flex;
-    justify-content: space-between;
-}
-#secondSection div{
-    width: 33%;
-    /* border: 2px solid black; */
-}
-#thirdSection ol{
-    margin-left: px;
-}
-#fourthSection{
-    display: flex;
-    justify-content: space-between;
-}
-#fifthSection{
-    display: flex;
-    justify-content: space-between;
-}
-#fifthSection div{
-    font-weight: bold;
-    width: 50%;
-    /* border: 2px solid black; */
-}
-#sixthSection{
-    display: flex;
-    justify-content: space-between;
-}
-#sixthSection div{
-    /* font-weight: bold; */
-    width: 50%;
-    /* border: 2px solid black; */
-}
-#seventhSection{
-    display: flex;
-    justify-content: space-between;
+.s1{
+    float: left;
 }
 
-#eightSection{
-    display: flex;
-    justify-content: space-between;
-}
-#eightSection div{
-    /* font-weight: bold; */
-    width: 80%;
-    /* border: 2px solid black; */
-}
-#ninthSection{
-    display: flex;
-    justify-content: space-between;
-}
-#ninthSection div{
-    /* font-weight: bold; */
-    width: 50%;
-    /* border: 2px solid black; */
-}
-#income{
-    display: flex;
-    justify-content: space-between;
-}
-#income div{
-    /* font-weight: bold; */
-    width: 50%;
-    /* border: 2px solid black; */
+.s2{
+    overflow: auto;
+    padding: 2px;
 }
 
-#proofs{
-    display: flex;
-    justify-content: space-between;
+.s3{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
 }
-#proofs div{
-    /* font-weight: bold; */
-    width: 50%;
-    /* border: 2px solid black; */
+
+.text-top{
+    vertical-align: text-top;
 }
-#KYC{
-    display: flex;
-    justify-content: space-between;
-}
-#KYC div{
-    /* border: 2px solid black; */
-}
+
